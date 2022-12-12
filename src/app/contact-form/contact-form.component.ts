@@ -10,6 +10,7 @@ import { FormControl } from '@angular/forms';
 export class ContactFormComponent {
 
   Name: string = '';
+  Email: string = '';
 
   validate():void{
 
