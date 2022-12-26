@@ -1,0 +1,72 @@
+[
+  {
+    "email": "valdemar.nielsen@example.com",
+    "phone_number": "10899723",
+    "username": "bluegorilla239",
+    "first_name": "valdemar",
+    "last_name": "nielsen"
+  },
+  {
+    "email": "fabio.dupont@example.com",
+    "phone_number": "(503)-255-0533",
+    "username": "purplebear824",
+    "first_name": "fabio",
+    "last_name": "dupont"
+  },
+  {
+    "email": "helena.wirth@example.com",
+    "phone_number": "0173-4867633",
+    "username": "heavybutterfly840",
+    "first_name": "helena",
+    "last_name": "wirth"
+  },
+  {
+    "email": "clotildes.darosa@example.com",
+    "phone_number": "(65) 9912-7496",
+    "username": "bluegorilla991",
+    "first_name": "clotildes",
+    "last_name": "da rosa"
+  },
+  {
+    "email": "buse.dağdaş@example.com",
+    "phone_number": "(855)-841-4810",
+    "username": "crazypeacock394",
+    "first_name": "buse",
+    "last_name": "dağdaş"
+  },
+  {
+    "email": "amelia.mercier@example.com",
+    "phone_number": "(168)-747-5950",
+    "username": "whitefrog218",
+    "first_name": "amelia",
+    "last_name": "mercier"
+  },
+  {
+    "email": "maureen.ramos@example.com",
+    "phone_number": "0486-809-748",
+    "username": "purplepeacock730",
+    "first_name": "maureen",
+    "last_name": "ramos"
+  },
+  {
+    "email": "solène.lemaire@example.com",
+    "phone_number": "06-41-57-50-80",
+    "username": "heavyladybug601",
+    "first_name": "solène",
+    "last_name": "lemaire"
+  },
+  {
+    "email": "ernest.williamson@example.com",
+    "phone_number": "081-571-7090",
+    "username": "silverleopard819",
+    "first_name": "ernest",
+    "last_name": "williamson"
+  },
+  {
+    "email": "florian.hahn@example.com",
+    "phone_number": "0170-0421455",
+    "username": "smallsnake648",
+    "first_name": "florian",
+    "last_name": "hahn"
+  }
+]

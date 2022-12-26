@@ -1,0 +1,38 @@
+[
+  {
+    "objectID": 1,
+    "name": "Phone a",
+    "product_reference": "abcdef",
+    "price": "500€"
+  },
+  {
+    "objectID": 2,
+    "name": "Phone b",
+    "product_reference": "lmnopq",
+    "price": "200€"
+  },
+  {
+    "objectID": 2,
+    "name": "Phone c",
+    "product_reference": "wxcvbn",
+    "price": "450€"
+  },
+  {
+    "objectID": 2,
+    "name": "Computer a",
+    "product_reference": "fejdhs",
+    "price": "1100€"
+  },
+  {
+    "objectID": 2,
+    "name": "Computer b",
+    "product_reference": "poiuyt",
+    "price": "2000€"
+  },
+  {
+    "objectID": 2,
+    "name": "Computer c",
+    "product_reference": "gbvcxj",
+    "price": "2300€"
+  }
+]
