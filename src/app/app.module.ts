@@ -8,6 +8,7 @@ import { ProductComponent } from './product/product.component';
 import { UserComponent } from './user/user.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -20,6 +21,12 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot([
+      {path: 'UserList', component: UserComponent},
+      {path: 'OrderList', component: OrdersComponent},
+      {path: 'ProductList', component: ProductComponent},
+      {path: 'Contact', component: ContactFormComponent},
+    ]),
     FormsModule,
     AppRoutingModule
   ],
