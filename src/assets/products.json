@@ -12,25 +12,25 @@
     "price": "200€"
   },
   {
-    "objectID": 2,
+    "objectID": 3,
     "name": "Phone c",
     "product_reference": "wxcvbn",
     "price": "450€"
   },
   {
-    "objectID": 2,
+    "objectID": 4,
     "name": "Computer a",
     "product_reference": "fejdhs",
     "price": "1100€"
   },
   {
-    "objectID": 2,
+    "objectID": 5,
     "name": "Computer b",
     "product_reference": "poiuyt",
     "price": "2000€"
   },
   {
-    "objectID": 2,
+    "objectID": 6,
     "name": "Computer c",
     "product_reference": "gbvcxj",
     "price": "2300€"

@@ -1,1 +1,21 @@
-<p>product works!</p>
+<div class="container">  
+    
+    <table class="table table-striped">  
+      <thead>  
+          <tr>  
+            <th>ID</th>  
+            <th>Product name</th>  
+            <th>Product reference</th>   
+            <th>Price</th>
+          </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let product of productList">  
+          <td>{{ product.objectID }}</td>  
+          <td>{{ product.name }}</td>  
+          <td>{{ product.product_reference }}</td>  
+          <td>{{ product.price }}</td>
+        </tr>  
+      </tbody>  
+    </table>  
+  </div> 
