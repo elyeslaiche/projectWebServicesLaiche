@@ -11,6 +11,7 @@ export class ContactFormComponent {
 
   Name: string = '';
   Email: string = '';
+  Text: string = '';
 
   validate():void{
 
