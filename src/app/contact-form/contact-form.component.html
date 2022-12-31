@@ -1,7 +1,26 @@
-Name: <input type="text" [(ngModel)]="Name">
-<br />
-Email: <input type="text" [(ngModel)]="Email">
-
-Text: <textarea [(ngModel)]="Text"></textarea>
-<button (click)="validate()">Save</button>
-
+<form class="m-5">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label>First Name</label>
+      <input type="text" class="form-control" placeholder="First Name" [(ngModel)]="First_Name">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label>Last Name</label>
+      <input type="text" class="form-control" placeholder="Last Name" [(ngModel)]="Last_Name">
+    </div>
+    <div class="col-md-4 mb-3">
+      <label>Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="example@webservice.com" [(ngModel)]="Email">
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label>Message</label>
+      <textarea class="form-control" placeholder="Write your message here" [(ngModel)]="Text"></textarea>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit" (click)="validate()">Send Message</button>
+</form>

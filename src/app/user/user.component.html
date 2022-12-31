@@ -1,23 +1,24 @@
-<div class="container">  
-    
-    <table class="table table-striped">  
-      <thead>  
-          <tr>  
-            <th>First name</th>  
-            <th>Last name</th>  
-            <th>Email</th>  
-            <th>Username</th>
-            <th>Phone number</th> 
-          </tr>  
-      </thead>  
-      <tbody>  
-        <tr *ngFor="let user of UserList">  
-          <td>{{ user.first_name }}</td>  
-          <td>{{ user.last_name }}</td>  
-          <td>{{ user.email }}</td>  
-          <td>{{ user.username }}</td>  
-          <td>{{ user.phone_number }}</td>  
-        </tr>  
-      </tbody>  
-    </table>  
-  </div>  
+<div class="container mt-4 m-5">
+  <table class="table table-striped">
+    <thead>
+      <tr class="text-center">
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Phone number</th>
+        <th>Detail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of UserList" class="text-center">
+        <td>{{ user.first_name }}</td>
+        <td>{{ user.last_name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.phone_number }}</td>
+        <td><a type="button" class="btn btn-default" routerLink="" routerLinkActive="active"><img src="./assets/loupe.png" width="30"></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

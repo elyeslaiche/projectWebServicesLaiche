@@ -9,7 +9,8 @@ import { FormControl } from '@angular/forms';
 
 export class ContactFormComponent {
 
-  Name: string = '';
+  First_Name: string = '';
+  Last_Name: string = '';
   Email: string = '';
   Text: string = '';
 
