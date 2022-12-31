@@ -15,6 +15,6 @@ export class ContactFormComponent {
   Text: string = '';
 
   validate():void{
-    alert("Name:"+this.Name+"\n Email:"+this.Email+"\n Text:"+this.Text);
+    alert("First Name : "+this.First_Name+"\nLast Name : "+this.Last_Name+"\nEmail : "+this.Email+"\nText : "+this.Text);
   }
 }
