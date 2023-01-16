@@ -17,7 +17,7 @@ import { RouterModule } from '@angular/router';
     ProductComponent,
     UserComponent,
     OrdersComponent,
-    ContactFormComponent
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,

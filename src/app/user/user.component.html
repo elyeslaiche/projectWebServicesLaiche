@@ -16,7 +16,8 @@
           <td>{{ user.last_name }}</td>  
           <td>{{ user.email }}</td>  
           <td>{{ user.username }}</td>  
-          <td>{{ user.phone_number }}</td>  
+          <td>{{ user.phone_number }}</td>
+          <button (click)="UserDetails(user)">Details</button>  
         </tr>  
       </tbody>  
     </table>  

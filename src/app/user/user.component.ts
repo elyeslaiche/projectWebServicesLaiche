@@ -17,4 +17,9 @@ interface User {
 
 export class UserComponent {
   UserList: User[] = userList; 
+
+  UserDetails(userObj : User) :void{
+    alert("Username: "+userObj.username+"\n First name: "+userObj.first_name+"\n Last name: "+userObj.last_name
+    +"\n E-mail: "+userObj.email+"\n Phone number: "+userObj.phone_number);
+   }
 }
