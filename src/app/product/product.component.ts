@@ -17,7 +17,7 @@ export class ProductComponent {
   productList: Product[] = ProductList;
 
   ProductDetails(productObj : Product) :void{
-    alert("Product ID: "+productObj.objectID+"\n Product name: "+productObj.name+"\n The reference: "+productObj.product_reference
-    +"\n Price: "+productObj.price);
+    alert("Product ID : "+productObj.objectID+"\nProduct name : "+productObj.name+"\nThe reference : "+productObj.product_reference
+    +"\nPrice : "+productObj.price);
    }
 }

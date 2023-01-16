@@ -1,22 +1,22 @@
-<div class="container">  
-    
-    <table class="table table-striped">  
-      <thead>  
-          <tr>  
-            <th>ID</th>  
-            <th>Product name</th>  
-            <th>Product reference</th>   
+<div class="container">
+
+    <table class="table table-striped">
+      <thead>
+          <tr>
+            <th>ID</th>
+            <th>Product name</th>
+            <th>Product reference</th>
             <th>Price</th>
-          </tr>  
-      </thead>  
-      <tbody>  
-        <tr *ngFor="let product of productList">  
-          <td>{{ product.objectID }}</td>  
-          <td>{{ product.name }}</td>  
-          <td>{{ product.product_reference }}</td>  
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of productList">
+          <td>{{ product.objectID }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.product_reference }}</td>
           <td>{{ product.price }}</td>
-          <button (click)="ProductDetails(product)">Details</button>
-        </tr>  
-      </tbody>  
-    </table>  
-  </div> 
+          <button (click)="ProductDetails(product)"><img src="./assets/loupe.png" width="30px"></button>
+        </tr>
+      </tbody>
+    </table>
+  </div>

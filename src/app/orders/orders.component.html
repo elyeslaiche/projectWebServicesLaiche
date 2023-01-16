@@ -1,24 +1,24 @@
-<div class="container">  
-    
-    <table class="table table-striped">  
-      <thead>  
-          <tr>  
-            <th>Order ID</th>  
-            <th>Username</th>  
-            <th>Product name</th>   
+<div class="container">
+
+    <table class="table table-striped">
+      <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Username</th>
+            <th>Product name</th>
             <th>Quantity</th>
             <th>Date of order</th>
-          </tr>  
-      </thead>  
-      <tbody>  
-        <tr *ngFor="let order of orderList">  
-          <td>{{ order.orderNumber }}</td>  
-          <td>{{ order.username }}</td>  
-          <td>{{ order.productName }}</td>  
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of orderList">
+          <td>{{ order.orderNumber }}</td>
+          <td>{{ order.username }}</td>
+          <td>{{ order.productName }}</td>
           <td>{{ order.quantity }}</td>
           <td>{{ order.datetime }}</td>
-          <button (click)="OrderDetails(order)">Details</button>
-        </tr>  
-      </tbody>  
-    </table>  
-  </div> 
+          <button (click)="OrderDetails(order)"><img src="./assets/loupe.png" width="30px"></button>
+        </tr>
+      </tbody>
+    </table>
+  </div>
