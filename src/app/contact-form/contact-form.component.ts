@@ -9,11 +9,12 @@ import { FormControl } from '@angular/forms';
 
 export class ContactFormComponent {
 
-  Name: string = '';
+  First_Name: string = '';
+  Last_Name: string = '';
   Email: string = '';
   Text: string = '';
 
   validate():void{
-    alert("Name:"+this.Name+"\n Email:"+this.Email+"\n Text:"+this.Text);
+    alert("First Name : "+this.First_Name+"\nLast Name : "+this.Last_Name+"\nEmail : "+this.Email+"\nText : "+this.Text);
   }
 }
