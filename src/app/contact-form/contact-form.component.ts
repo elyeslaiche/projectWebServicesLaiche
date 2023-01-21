@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'contact-form',
@@ -14,7 +14,7 @@ export class ContactFormComponent {
   Email: string = '';
   Text: string = '';
 
-  validate():void{
-    alert("First Name : "+this.First_Name+"\nLast Name : "+this.Last_Name+"\nEmail : "+this.Email+"\nText : "+this.Text);
+  onSubmit(form : NgForm):void{
+    alert("First Name : "+form.value.firstName+"\nLast Name : "+form.value.lastName+"\nEmail : "+form.value.email+"\nText : "+form.value.text);
   }
 }
